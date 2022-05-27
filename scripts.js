@@ -14,3 +14,7 @@ document.getElementById("write-here1").innerHTML = y[0].innerHTML;
 //get Element by class name
 const m = document.getElementsByClassName("intro");
 document.getElementById("write-here2").innerHTML=m[0].innerHTML +'- Using DOM getby class';
+
+//get element by CSS selector
+const z = document.querySelectorAll("p.intro");
+document.getElementById("write-here3").innerHTML = z[0].innerHTML;
