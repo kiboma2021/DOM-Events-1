@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Dom Events</title>
 </head>
 <body>
   <header>
     <h1>Introduction to DOM elements</h1>
   </header>
+
   <section>
     <p>HTML DOM is a standard on how to add, get, change and delete HTML elements</p>
     <p>You can either use the below methods to find DOM elements:</p>
@@ -35,6 +37,28 @@
       <li>document.write(text) </li>
     </ul>
   </section>
-  
+
+  <hr>
+
+  <section>
+    <h1>Get HTML Elements by ID</h1>
+    <p id="intro">We love Javascript!</p>
+    <p>To extract this content to another tag eg below:</p>
+
+    <p id="get-intro"></p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h1>Get Element by Tag Name</h1>
+    <p>This is the first paragraph!</p>
+    <p>Can you re-write the above paragraph using DOM element and get element by Tag Name?</p>
+    <p>If you can please re-write it below:</p>
+
+    <h2 id="write-here"></h2>
+  </section>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
